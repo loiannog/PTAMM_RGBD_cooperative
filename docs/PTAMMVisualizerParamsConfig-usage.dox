@@ -1,0 +1,16 @@
+\subsubsection usage Usage
+\verbatim
+<node name="Config" pkg="PTAMM_RGBD_cooperative" type="Config">
+  <param name="ShowPC" type="bool" value="True" />
+  <param name="ShowAllKFs" type="bool" value="True" />
+  <param name="ShowKFs" type="bool" value="True" />
+  <param name="KFLifetime" type="int" value="1" />
+  <param name="ShowPath" type="bool" value="True" />
+  <param name="PathLength" type="int" value="1000" />
+  <param name="ExportPC" type="bool" value="False" />
+  <param name="ExportPrefix" type="str" value="" />
+  <param name="SaveMap" type="bool" value="False" />
+  <param name="KFFlags" type="int" value="0" />
+</node>
+\endverbatim
+

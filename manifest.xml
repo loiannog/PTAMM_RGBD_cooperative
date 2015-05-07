@@ -1,0 +1,30 @@
+<package>
+  <description brief="PTAMM_RGBD_cooperative">
+
+     PTAMM_RGBD_cooperative
+
+  </description>
+  <author>giuseppe loianno</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/PTAMM_RGBD_cooperative</url>
+  <depend package="roscpp"/>
+    <depend package="rospy"/>
+  <depend package="pcl_ros"/>
+  <!--<depend package="pcl"/>-->
+  <depend package="std_msgs"/>
+  <depend package="cv_bridge"/>
+  <depend package="sensor_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="message_filters"/>
+<!--  <depend package="opencv2"/>-->
+  <depend package="tf"/>
+  <depend package="visualization_msgs"/>
+  <depend package="dynamic_reconfigure"/>
+  <rosdep name="atlas"/>	
+  <rosdep name="glut"/>	
+</package>
+
+

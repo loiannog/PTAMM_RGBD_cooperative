@@ -1,0 +1,135 @@
+# --- local parameters  --- #
+DR: 20
+DC: 20
+STEP_R_MAX: 20
+STEP_R_MIN: 10
+STEP_C_MAX: 20
+STEP_C_MIN: 10
+Z_MAX: 5.0
+Z_MIN: 0.5
+path_file: /home/xuee/git/PTAMM_RGBD_cooperative/
+gui: false
+image_width: 640
+image_height: 480
+BundleMEstimator: Tukey
+TrackerMEstimator: Tukey
+MinTukeySigma: 0.4
+CandidateMinShiTomasiScore: 70
+FASTMethod: AGAST12d
+MaxPatchesPerFrame: 300
+MaxKFDistWiggleMult: 1
+mgvnMenuItemWidth: 90
+mgvnMenuTextOffset: 20
+mgvnEnabled: True
+MaxKF: 0
+MaxStereoInitLoops: 10
+parent_frame: world
+InitLevel: 0
+NoLevelZeroMapPoints: False
+RelocMaxScore: 8000
+
+
+# --- sample camera calibration use PTAMM on rectified images odroid onboard--- 
+#Cam_fx: 0.838949
+#Cam_fy: 1.11457
+#Cam_cx: 0.493472
+#Cam_cy: 0.517326
+#Cam_s:  0.0267063
+Cam_fx: 0.821004
+Cam_fy: 1.08725
+Cam_cx: 0.490566 
+Cam_cy: 0.515272
+Cam_s:  -0.0005
+# -----------------------------------------------------------------------------
+
+
+# --- sample camera calibration use n rectified images odroid onboard --- 
+cx_rgb: 313.96224
+cy_rgb: 247.33056
+fx_rgb: 525.44256
+fy_rgb: 521.88
+
+# -------------------------------------------------------------------
+
+
+# --- sample camera calibration use Cameracalibrator to find them --- 
+#cx_rgb:  310.955167
+#cy_rgb:  236.464309
+#fx_rgb: 542.318718
+#fy_rgb:  548.668584
+# -------------------------------------------------------------------
+
+
+# --- sample camera calibration use PTAMM on rectified images to find them asus xtion ptamm--- 
+#Cam_fx: 0.842103
+#Cam_fy:   1.12394
+#Cam_cx:  0.49999
+#Cam_cy:  0.498298
+#Cam_s:  0
+# -----------------------------------------------------------------------------
+
+# --- sample camera calibration use PTAMM on rectified images asus onboard--- 
+#Cam_fx: 0.835571575
+#Cam_fy:   1.118753179
+#Cam_cx:  0.488491505
+#Cam_cy:  0.513221496
+#Cam_s:  0
+# -----------------------------------------------------------------------------
+
+# --- sample camera calibration use n rectified images asus onboard --- 
+#cx_rgb:  312.634563
+#cy_rgb:  246.346318
+#fx_rgb: 534.765808
+#fy_rgb:  537.001526
+# -------------------------------------------------------------------
+
+
+
+# --- sample camera calibration use PTAMM on rectified images to find them freiburg 1--- 
+#Cam_fx: 0.853163147
+#Cam_fy:   1.129606629
+#Cam_cx:  0.499548841
+#Cam_cy:  0.523697762
+#Cam_s:  0
+# -----------------------------------------------------------------------------
+
+# --- sample camera calibration use Cameracalibrator to find them freiburg 1 --- 
+#cx_rgb:  319.711258
+#cy_rgb:  251.374926
+#fx_rgb: 546.024414
+#fy_rgb:  542.211182
+# -------------------------------------------------------------------
+
+
+
+# --- sample camera calibration use PTAMM on rectified images to find them freiburg 2--- 
+#Cam_fx: 0.850115681
+#Cam_fy:    1.130271785
+#Cam_cx:   0.506255739
+#Cam_cy:   0.514896373
+#Cam_s:  0
+# -----------------------------------------------------------------------------
+
+# --- sample camera calibration use Cameracalibrator to find them freiburg 2 --- 
+#cx_rgb:  324.003673
+#cy_rgb:  247.150259
+#fx_rgb: 544.074036
+#fy_rgb:  542.530457
+# -------------------------------------------------------------------
+
+
+
+# --- sample camera calibration use PTAMM on rectified images to find them freiburg 3--- 
+#Cam_fx: 0,840563003
+#Cam_fy:   1,12416179
+#Cam_cx:  0,498724439
+#Cam_cy:  0,514695458
+#Cam_s:  0
+# -----------------------------------------------------------------------------
+
+# --- sample camera calibration use Cameracalibrator to find them freiburg 3 --- 
+#cx_rgb:  319.183641
+#cy_rgb:  247.053820
+#fx_rgb: 537.960322
+#fy_rgb:  539.597659
+# -------------------------------------------------------------------

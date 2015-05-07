@@ -1,0 +1,20 @@
+ <launch>
+<arg name="camera" default="camera" />
+   <node pkg="tf" type="static_transform_publisher" name="$(arg camera)_base_link4"
+  args="0 0 0 0 0 0 1  /$(arg camera)_link /world 100"/>
+  
+ <node name="PTAMM_RGBD_cooperative" pkg="PTAMM_RGBD_cooperative" type="ptam" output="screen">
+   <rosparam file="$(find PTAMM_RGBD_cooperative)/Params.yaml"/>
+  </node>
+<!--<node name="ptamm_visualizer" pkg="PTAMM_RGBD_cooperative" type="ptamm_visualizer" output="screen"/>-->
+
+<!--<node name="quadrotor_ukf_lite" pkg="quadrotor_ukf_lite" type="quadrotor_ukf" output="screen">
+<remap  from="quadrotor_ukf_lite/pose" to="pose"/>
+<remap  from="quadrotor_ukf_lite/imu" to="asctecD/imu"/>
+</node>-->
+
+<!--<node name="dense_map_KD" pkg="dense_map_KD" type="dense_map_KD" output="screen">
+  <rosparam file="$(find dense_map_KD)/Params_dense_map_KD.yaml"/>
+  </node>-->
+<!--<node name="rviz" pkg="rviz" type="rviz" args="-d $(find PTAMM_RGBD_cooperative)/PTAMM_ros_sv.rviz"/>-->
+</launch>
