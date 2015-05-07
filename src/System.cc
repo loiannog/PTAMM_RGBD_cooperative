@@ -23,7 +23,7 @@
 #include <cvd/image_ref.h>
 #include "LevelHelpers.h"
 #include <string> // this should be already included in <sstream>
-#include </opt/ros/indigo/share/image_pipeline/depth_image_proc/src/nodelets/depth_traits.h>
+#include "depth_traits.h"
 #include <Eigen/Geometry>
 #include <pcl/common/transforms.h>
 #include <tf/transform_broadcaster.h>

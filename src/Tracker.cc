@@ -15,7 +15,7 @@
 #include <gvars3/instances.h>
 #include <gvars3/GStringUtil.h>
 
-#include </opt/ros/indigo/share/image_pipeline/depth_image_proc/src/nodelets/depth_traits.h>
+#include "depth_traits.h"
 #include <math.h>
 
 #include <fstream>
